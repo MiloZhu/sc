@@ -27,7 +27,8 @@
 		<module>sc-eureka</module>
 		<module>sc-zuul</module>
 		<module>sc-user</module>
-		<module>sc-auth</module>
+		<module>sc-resource</module>
+		<module>sc-oauth2</module>
 	</modules>
 	
 	<dependencyManagement>
@@ -42,16 +43,7 @@
 		</dependencies>
 	</dependencyManagement>
 	
-	<!-- Package as an executable jar 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-	-->
+	
 	<build>
 		<resources>
 			<resource>
@@ -67,5 +59,12 @@
 				</includes>
 			</resource>
 		</resources>
+		<!-- Package as an executable jar -->
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
 	</build>
 </project>

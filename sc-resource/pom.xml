@@ -9,9 +9,9 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>sc-auth</artifactId>
-	<name>sc-auth</name>
-	<description>sc-auth</description>
+	<artifactId>sc-resource</artifactId>
+	<name>sc-resource</name>
+	<description>sc-resource</description>
 
 	<dependencies>
 		<dependency>
